@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '8.0'
   s.homepage     = "https://github.com/tarun-talentica/TalNet"
-  s.license      = { :type => "MIT", :file => "License.md" }
+  s.license      = { :type => "MIT" }
   s.author             = { "Tarun Sharma" => "tsharma.oct83@gmail.com" }
   s.source       = { :git => "https://github.com/tarun-talentica/TalNet.git"}
   s.source_files  = "Source/*.swift", "Source/Request/*swift", "Source/Response/*swift", "Source/Vendors/*swift"
