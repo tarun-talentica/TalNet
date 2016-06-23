@@ -1,0 +1,6 @@
+framework module TalNet {
+  umbrella header "TalNet-umbrella.h"
+
+  export *
+  module * { export * }
+}

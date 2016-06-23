@@ -6,6 +6,6 @@ target 'Demo' do
   use_frameworks!
 
   # Pods for Demo
-  pod 'TalNet', :path => "../"
+  pod 'TalNet', :git => 'https://github.com/tarun-talentica/TalNet.git'
 
 end
