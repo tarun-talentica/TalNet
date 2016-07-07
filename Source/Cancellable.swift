@@ -117,5 +117,4 @@ internal final class VendorCancellable: Cancellable, CustomDebugStringConvertibl
         queue.cancelAllOperations()
         queue.suspended = false
     }
-
 }

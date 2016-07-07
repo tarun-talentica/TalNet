@@ -13,7 +13,7 @@ public protocol SecureNetworkService: NetworkService {}
 public extension SecureNetworkService {
     
     /// Use https scheme as default for secure network service
-    var scheme: String {
+    public var scheme: String {
         return "https"
     }
 }

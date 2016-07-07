@@ -21,7 +21,7 @@ public protocol Queriable {
     var headers:[String:String]? {get}
     
     // This builds the URLString from Scheme + Host
-    var service: SecureNetworkService { get }
+    var service: NetworkService { get }
 }
 
 public extension Queriable {

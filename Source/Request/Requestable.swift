@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public protocol Requestable {
     var query: Queriable { get }
     var URLRequest: NSMutableURLRequest { get }
